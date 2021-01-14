@@ -1,0 +1,12 @@
+.header_wrapper {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 58px;
+    padding-top: 18px;
+    padding-bottom: 70px;
+    font-family: monospace;
+    font-size: 60pt;
+}

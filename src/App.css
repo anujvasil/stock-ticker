@@ -1,0 +1,13 @@
+.App {
+  background-color: black;
+}
+
+.app_container{
+  display: flex;
+
+}
+
+.chart_containerA{
+  padding-left: 170px;
+  padding-right: 100px;
+}
