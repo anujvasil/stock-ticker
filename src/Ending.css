@@ -1,0 +1,7 @@
+.app_ending {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+    padding-bottom: 20px;
+}

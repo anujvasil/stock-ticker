@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import "./Charts.css";
 import {Line} from "react-chartjs-2";
 import {chartData} from "./Tickers.js";
-import {show} from "./Tickers.js";
 
 function Charts(props) {
 
@@ -50,6 +49,7 @@ function Charts(props) {
                   title: {
                       display: true,
                       text: props.name,
+                      fontColor: '#FFFFFF',
                       font: 'monospace',
                       fontSize: 25,
                   },
@@ -103,10 +103,6 @@ function Charts(props) {
         </div>
     )
 }
-
-
-
-
 
 
 export default Charts
