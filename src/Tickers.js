@@ -72,7 +72,7 @@ function Bar(){
         <hr style={{
             borderColor: "#869196",
             height: .05,
-            width: 225,
+            width: 275,
         }}/>
     )
 }

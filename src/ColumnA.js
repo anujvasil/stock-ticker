@@ -1,6 +1,5 @@
 import React from "react";
 import Charts from "./Charts.js";
-import "./ColumnA.css"
 
 function ColumnA() {
 
@@ -9,6 +8,8 @@ function ColumnA() {
             <Charts name={"GTBY"} />
             <Charts name={"APPL"}/>
             <Charts name={"TSLA"}/>
+            <Charts name={"UAL"}/>
+            <Charts name={"MRNA"}/>
         </div>
     )
 }

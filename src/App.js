@@ -4,7 +4,6 @@ import Header from "./Header.js";
 import Tickers from "./Tickers.js";
 import Ending from "./Ending.js";
 import ColumnA from "./ColumnA.js";
-import ColumnB from "./ColumnB.js";
 
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <div className="app_container">
             <Tickers />
             <ColumnA />
-            <ColumnB />
         </div>
       </div>
         <Ending />
